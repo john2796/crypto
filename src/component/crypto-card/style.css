@@ -1,0 +1,29 @@
+.card {
+  border-radius: 4px;
+  width: 200px;
+  height: 100px;
+}
+
+.card .percentage .gain,
+.card .price .gain {
+  color: 1px solid #00b518;
+}
+
+.card .percentage .loss,
+.card .price .loss {
+  color: 1[x solid #e60000];
+}
+
+.card .name {
+  padding: 8px 12px;
+  font-weight: bold;
+}
+
+.card .name span {
+  margin-left: 4px;
+  font-weight: normal;
+}
+
+.card .percentage {
+  font-size: 0.9em;
+}
